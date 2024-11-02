@@ -1,0 +1,2 @@
+connect.dial_devices="[{\"address\":\"192.168.1.191\",\"app_state\":\"MISSING\",\"created_timestamp\":1728069251,\"device_id\":\"79f29f64-1b3b-3b2e-855d-ee3798379fed\",\"dial_location_url\":\"http://192.168.1.191:60000/dd.xml\",\"display_name\":\"Fire TV de Edson\",\"last_seen\":1728069262,\"manufacturer\":\"Amazon\",\"model_name\":\"AFTMM\",\"product_cap\":\"\",\"public_ip\":\"82.48.13.202\",\"wol\":{\"all_interfaces\":false,\"delay_ms\":50,\"mac\":\"ec8ac4bb4c49\",\"port\":9,\"retries\":800}}]"
+audio.play_bitrate_non_metered_migrated=true

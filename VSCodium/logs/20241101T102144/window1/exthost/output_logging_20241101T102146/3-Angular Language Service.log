@@ -1,0 +1,20 @@
+All workspace roots are using versions of Angular that do not support @let syntax. @let syntax parsing in templates will be disabled.
+Using Angular version 17.3.12.
+[Info  - 11:23:28 AM] Angular language server process ID: 5119
+[Info  - 11:23:28 AM] Imported typescript/lib/tsserverlibrary is version 5.5.3.
+[Info  - 11:23:28 AM] Using @angular/language-service v18.2.0-rc.0 from /home/raysuo/.vscode-oss/extensions/angular.ng-template-18.2.0-universal/node_modules/@angular/language-service/index.js
+[Info  - 11:23:28 AM] Logging is turned off. To enable, run command 'Open Angular server log'.
+[Info  - 11:23:30 AM] Enabling language service for /home/raysuo/Echoes/Echoes/tsconfig.json.
+[Error - 11:41:16 AM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/home.module.ts
+[Error - 11:41:16 AM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/home.module.ts
+[Error - 12:09:09 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home.module.ts
+[Error - 12:09:09 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home.module.ts
+[Error - 12:09:09 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home.module.ts
+[Error - 12:09:10 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home.module.ts
+[Error - 12:09:20 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/app.module.ts
+[Error - 12:09:20 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/app.module.ts
+[Error - 12:09:20 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/app.module.ts
+[Error - 12:12:48 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/prova.module.ts
+[Error - 12:12:48 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/prova.module.ts
+[Error - 12:12:48 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/prova.module.ts
+[Error - 12:12:55 PM] No config file for /home/raysuo/Echoes/Echoes/src/app/home/home.module.ts

@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/raysuo/Echoes/Echoes","configPath":"/home/raysuo/Echoes/Echoes/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/raysuo/Echoes/Echoes/tailwind.config.js","priority":0},{"pattern":"/home/raysuo/Echoes/Echoes/src/**/*.{html,css,ts}","priority":1},{"pattern":"/home/raysuo/Echoes/Echoes/**","priority":3}]}]
+[Global] Adding watch patterns: /home/raysuo/Echoes/Echoes/tailwind.config.js, /home/raysuo/Echoes/Echoes
+[tailwind.config.js] Initializing...
+[tailwind.config.js] Loaded Tailwind CSS config file: /home/raysuo/Echoes/Echoes/tailwind.config.js
+[tailwind.config.js] Loaded postcss v8.4.47: /home/raysuo/Echoes/Echoes/node_modules/postcss
+[tailwind.config.js] Loaded tailwindcss v3.4.13: /home/raysuo/Echoes/Echoes/node_modules/tailwindcss
+[tailwind.config.js] Building...

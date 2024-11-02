@@ -1,0 +1,66 @@
+2024-10-31 07:29:19.202 [info] [main] Log level: Info
+2024-10-31 07:29:19.202 [info] [main] Validating found git in: "git"
+2024-10-31 07:29:19.202 [info] [main] Using git "2.46.2" from "git"
+2024-10-31 07:29:19.202 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-31 07:29:19.202 [info] > git rev-parse --show-toplevel [7ms]
+2024-10-31 07:29:19.202 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-31 07:29:19.215 [info] [Model][openRepository] Opened repository: /home/raysuo/Echoes/Echoes
+2024-10-31 07:29:19.232 [info] > git rev-parse --show-toplevel [4ms]
+2024-10-31 07:29:19.233 [info] > git config --get commit.template [10ms]
+2024-10-31 07:29:19.247 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-31 07:29:19.248 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-31 07:29:19.248 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-31 07:29:19.253 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/raysuo/Echoes/Echoes/.git/refs/remotes/origin/main'
+2024-10-31 07:29:19.254 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-31 07:29:19.266 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-31 07:29:19.392 [info] > git status -z -uall [133ms]
+2024-10-31 07:29:19.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-31 07:29:19.416 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-10-31 07:29:19.416 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-31 07:29:19.420 [info] > git config --get commit.template [12ms]
+2024-10-31 07:29:19.457 [info] > git reflog main --grep-reflog=branch: Created from *. [37ms]
+2024-10-31 07:29:19.464 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-10-31 07:29:19.468 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-10-31 07:29:19.472 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/raysuo/Echoes/Echoes/.git/refs/remotes/origin/main'
+2024-10-31 07:29:19.474 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-31 07:29:19.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [15ms]
+2024-10-31 07:29:19.488 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-31 07:29:19.489 [info] > git config --local branch.main.vscode-merge-base origin/main [2ms]
+2024-10-31 07:29:19.554 [info] > git status -z -uall [76ms] (cancelled)
+2024-10-31 07:29:19.554 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [61ms]
+2024-10-31 07:29:19.559 [info] > git config --get commit.template [6ms]
+2024-10-31 07:29:19.560 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-31 07:29:19.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-10-31 07:29:19.588 [info] > git merge-base refs/heads/main refs/remotes/origin/main [13ms]
+2024-10-31 07:29:19.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [24ms]
+2024-10-31 07:29:19.597 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/raysuo/Echoes/Echoes/.git/refs/remotes/origin/main'
+2024-10-31 07:29:19.599 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-31 07:29:19.607 [info] > git diff --name-status -z --diff-filter=ADMR 02a55a3bb75243bdef2649ccfe946103d1af5a67...refs/remotes/origin/main [14ms]
+2024-10-31 07:29:19.609 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-31 07:29:19.726 [info] > git status -z -uall [123ms]
+2024-10-31 07:29:19.740 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-31 07:29:34.075 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-31 07:29:36.043 [info] > git show --textconv :src/main.ts [11ms]
+2024-10-31 07:29:36.044 [info] > git ls-files --stage -- /home/raysuo/Echoes/Echoes/src/main.ts [2ms]
+2024-10-31 07:29:36.053 [info] > git cat-file -s 35b00f3463311f2afe0fd0d9d5f696dbb992dff5 [3ms]
+2024-10-31 07:29:39.566 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-31 07:29:41.839 [info] > git show --textconv :src/app/app.component.html [6ms]
+2024-10-31 07:29:41.840 [info] > git ls-files --stage -- /home/raysuo/Echoes/Echoes/src/app/app.component.html [2ms]
+2024-10-31 07:29:41.846 [info] > git cat-file -s 90c6b64632858139a9e4f4b1c55d0ee1d6e7b740 [2ms]
+2024-10-31 07:29:44.423 [info] > git show --textconv :src/app/app-routing.module.ts [10ms]
+2024-10-31 07:29:44.424 [info] > git ls-files --stage -- /home/raysuo/Echoes/Echoes/src/app/app-routing.module.ts [2ms]
+2024-10-31 07:29:44.432 [info] > git cat-file -s 6371f1045de6b657e8a08dd3196244346e677662 [2ms]
+2024-10-31 07:31:25.398 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-31 07:31:37.979 [info] > git config --get commit.template [8ms]
+2024-10-31 07:31:37.979 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-31 07:31:37.986 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/raysuo/Echoes/Echoes/.git/refs/remotes/origin/main'
+2024-10-31 07:31:37.987 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-31 07:31:38.002 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-31 07:31:38.119 [info] > git status -z -uall [126ms]
+2024-10-31 07:31:51.739 [info] > git config --get commit.template [6ms]
+2024-10-31 07:31:51.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-31 07:31:51.746 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/raysuo/Echoes/Echoes/.git/refs/remotes/origin/main'
+2024-10-31 07:31:51.755 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-10-31 07:31:51.774 [info] > git check-ignore -v -z --stdin [20ms]
+2024-10-31 07:31:51.776 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-31 07:31:51.903 [info] > git status -z -uall [139ms]

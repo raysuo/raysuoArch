@@ -1,0 +1,7 @@
+[Global] Creating projects: [{"folder":"/home/raysuo/Echoes/Echoes","configPath":"/home/raysuo/Echoes/Echoes/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/raysuo/Echoes/Echoes/tailwind.config.js","priority":0},{"pattern":"/home/raysuo/Echoes/Echoes/src/**/*.{html,css,ts}","priority":1},{"pattern":"/home/raysuo/Echoes/Echoes/**","priority":3}]}]
+[Global] Adding watch patterns: /home/raysuo/Echoes/Echoes/tailwind.config.js, /home/raysuo/Echoes/Echoes
+----------
+RESTARTING
+----------
+[Global] Creating projects: [{"folder":"/home/raysuo/Echoes/Echoes","configPath":"/home/raysuo/Echoes/Echoes/tailwind.config.js","isUserConfigured":false,"documentSelector":[{"pattern":"/home/raysuo/Echoes/Echoes/tailwind.config.js","priority":0},{"pattern":"/home/raysuo/Echoes/Echoes/src/**/*.{html,css,ts}","priority":1},{"pattern":"/home/raysuo/Echoes/Echoes/**","priority":3}]}]
+[Global] Adding watch patterns: /home/raysuo/Echoes/Echoes/tailwind.config.js, /home/raysuo/Echoes/Echoes

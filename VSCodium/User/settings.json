@@ -1,0 +1,5 @@
+{
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true
+}

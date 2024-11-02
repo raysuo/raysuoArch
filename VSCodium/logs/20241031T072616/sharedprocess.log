@@ -1,0 +1,36 @@
+2024-10-31 07:30:02.629 [info] Getting Manifest... angular.ng-template
+2024-10-31 07:30:03.242 [info] Installing extension: angular.ng-template {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json","path":"/home/raysuo/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-12T20:14:54.465Z"}}
+2024-10-31 07:30:08.394 [info] Extracted extension to file:///home/raysuo/.vscode-oss/extensions/angular.ng-template-18.2.0-universal: angular.ng-template
+2024-10-31 07:30:08.408 [info] Renamed to /home/raysuo/.vscode-oss/extensions/angular.ng-template-18.2.0-universal
+2024-10-31 07:30:08.429 [info] Extension installed successfully: angular.ng-template vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json
+2024-10-31 07:30:08.497 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44057)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44164)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28526)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20493)
+    at async eu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101677)
+    at async Jl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79899)
+2024-10-31 07:30:40.244 [info] Getting Manifest... johnpapa.angular2
+2024-10-31 07:30:40.423 [info] Installing extension: johnpapa.angular2 {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json","path":"/home/raysuo/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-12T20:14:54.465Z"}}
+2024-10-31 07:30:41.598 [info] Extracted extension to file:///home/raysuo/.vscode-oss/extensions/johnpapa.angular2-18.0.2-universal: johnpapa.angular2
+2024-10-31 07:30:41.603 [info] Renamed to /home/raysuo/.vscode-oss/extensions/johnpapa.angular2-18.0.2-universal
+2024-10-31 07:30:41.627 [info] Extension installed successfully: johnpapa.angular2 vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json
+2024-10-31 07:30:41.684 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44057)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44164)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28526)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20493)
+    at async eu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101677)
+    at async Jl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79899)
+2024-10-31 07:30:58.282 [info] Getting Manifest... bradlc.vscode-tailwindcss
+2024-10-31 07:30:58.504 [info] Installing extension: bradlc.vscode-tailwindcss {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json","path":"/home/raysuo/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.94.2","date":"2024-10-12T20:14:54.465Z"}}
+2024-10-31 07:30:59.214 [info] Extracted extension to file:///home/raysuo/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal: bradlc.vscode-tailwindcss
+2024-10-31 07:30:59.219 [info] Renamed to /home/raysuo/.vscode-oss/extensions/bradlc.vscode-tailwindcss-0.10.2-universal
+2024-10-31 07:30:59.234 [info] Extension installed successfully: bradlc.vscode-tailwindcss vscode-userdata:/home/raysuo/.vscode-oss/extensions/extensions.json
+2024-10-31 07:30:59.300 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/raysuo/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44057)
+    at Ei (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:44164)
+    at Fn.toFileSystemProviderError (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:28526)
+    at Fn.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:20493)
+    at async eu.stat (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:101677)
+    at async Jl.onDidFilesChange (file:///opt/vscodium-bin/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:79899)

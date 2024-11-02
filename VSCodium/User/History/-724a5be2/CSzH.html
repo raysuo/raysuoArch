@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECHOES Youth Association</title>
+    <!--<link rel="stylesheet" href="styles.css">-->
+</head>
+    
+<body>
+    <div class="padding">
+
+    <div class="header-content ">
+        <div class="logo">
+            <img src="../../assets/images/logo1(1).png" alt="ECHOES Youth Association Logo"> <!-- Replace with your logo image -->
+        </div>
+        <nav>
+            <a routerLink="/">Home</a>
+            <div class="dropdown">
+              <a routerLink="/about" class="dropbtn">About Us</a>
+              <!---->
+              <div class='dropdown-content'>
+                <a routerLink="/about/mission">Mission</a>
+                <a routerLink="/about/team">Team</a>
+              </div>
+            </div>
+              
+            <a routerLink="/projects">Projects</a>
+            <a routerLink="/contacts">Contacts</a>
+            <a routerLink="/partners">Partners</a>
+        </nav>
+        <div class="language-flags">
+            <img src="../assets/images/Flag_of_the_United_Kingdom_(1-2).svg.png" alt="UK Flag"> <!-- Replace with UK flag -->
+            <img src="../assets/images/italy.png" alt="Italy Flag"> <!-- Replace with Italy flag -->
+        </div>
+    </div>
+    
+    </div>
+    <div class="right-sidebar">
+        <ul>
+            <li><a href="https://www.instagram.com/echoescooperation/" target="_blank" rel="noopener noreferrer"><img src="../../assets/images/icons8-instagram-50.png" alt="Instagram"></a></li>
+            <li><a href="mailto:info@echoescooperation.com" target="_blank" rel="noopener noreferrer"><img src="../../assets/images/icons8-email-48.png" alt="Email"></a></li>
+            <!--<li><a href="#"><img src="../../assets/images/icons8-linkedin-50(1).png" alt="LinkedIn"></a></li>
+            <li><a href="#"><img src="../../assets/images/icons8-facebook-50.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="../../assets/images/icons8-youtube-50.png" alt="Play"></a></li>-->
+        </ul>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <img src="assets/logo.png" alt="Echoes Cooperation Logo" class="footer-logo" />
+          <div class="footer-text">
+            <img src="assets/text.png" alt="Building bridges between cultures, people and generations" class="footer-tagline" />
+            <p>2024 All rights reserved</p>
+            <p>Via Postumia di Ponente<br />35013, Cittadella (PD)</p>
+            <p><a href="mailto:info@echoescooperation.com">info<footer class="footer">
+                <div class="footer-content">
+                  <img src="assets/logo.png" alt="Echoes Cooperation Logo" class="footer-logo" />
+                  <div class="footer-text">
+                    <img src="assets/text.png" alt="Building bridges between cultures, people and generations" class="footer-tagline" />
+                    <p>2024 All rights reserved</p>
+                    <p>Via Postumia di Ponente<br />35013, Cittadella (PD)</p>
+                    <p><a href="mailto:info@echoescooperation.com">info@echoescooperation.com</a></p>
+                  </div>
+                </div>
+              </footer>
+              echoescooperation.com</a></p>
+          </div>
+        </div>
+      </footer>
+      
+    <router-outlet></router-outlet>
+</body>
+</html>
